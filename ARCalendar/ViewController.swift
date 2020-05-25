@@ -13,10 +13,10 @@ import SwiftUI
 
 class ViewController: UIViewController, ARSCNViewDelegate {
     
-    @IBOutlet var textview: UIView!
-    @IBOutlet var textlabel: UILabel!
+    var textview: UIView!
+    var textlabel: UILabel!
 
-    @IBOutlet var sceneView: ARSCNView!
+    var sceneView: ARSCNView!
     var isExistScreen = false
     //var plane:SCNNode!
     
