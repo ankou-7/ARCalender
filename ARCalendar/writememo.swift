@@ -10,11 +10,11 @@ import UIKit
  
 class writememo: UIViewController, UITextFieldDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
     
-    @IBOutlet var nitijilabel: UILabel!
-    @IBOutlet var memolabel: UILabel!
-    @IBOutlet var textfield: UITextField!
-    @IBOutlet var textview: UITextView!
-    @IBOutlet var textfield_picker: UITextField!
+    var nitijilabel: UILabel!
+    var memolabel: UILabel!
+    var textfield: UITextField!
+    var textview: UITextView!
+    var textfield_picker: UITextField!
     var pickerView: UIPickerView = UIPickerView()
     var years:[Int] = ([Int])(2000...2020)
     var months:[Int] = ([Int])(1...12)

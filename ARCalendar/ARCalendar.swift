@@ -12,18 +12,18 @@ class ARCalendar:UIViewController{
     
     var dayCount = 0;
 
-    @IBOutlet var upview: UIView!
+    var upview: UIView!
     
-    @IBOutlet var monthlabel: UILabel!
-    @IBOutlet var daylabel: UILabel!
-    @IBOutlet var yearlabel: UILabel!
-    @IBOutlet var youbilabel: UILabel!
-    @IBOutlet var mojilabel: UILabel!
+    var monthlabel: UILabel!
+    var daylabel: UILabel!
+    var yearlabel: UILabel!
+    var youbilabel: UILabel!
+    var mojilabel: UILabel!
     
-    @IBOutlet var memolabel: UILabel!
-    @IBOutlet var memolabel2: UILabel!
-    @IBOutlet var memoview: UITextView!
-    @IBOutlet var memobutton: UIView!
+    var memolabel: UILabel!
+    var memolabel2: UILabel!
+    var memoview: UITextView!
+    var memobutton: UIView!
     
     var textarray: [String] = []
     var jikanarray: [[String]] = []
