@@ -11,7 +11,6 @@ import UIKit
 class ARCalendar:UIViewController{
     
     var dayCount = 0;
-
     var upview: UIView!
     
     var monthlabel: UILabel!
@@ -33,17 +32,6 @@ class ARCalendar:UIViewController{
         // スクリーンサイズを取得
 //        let screenWidth:CGFloat = view.frame.size.width //736.0
 //        let screenHeight:CGFloat = view.frame.size.height //414.0
-//        print(screenWidth)
-//        print(screenHeight)
-//        print(self.view.bounds)
-        
-//        textbutton = UIButton(frame: CGRect(x: 675, y: 450, width: 50, height: 50))
-//        textbutton.backgroundColor = .black
-//        textbutton.setTitle("sample", for: .normal)
-//        textbutton.setTitleColor(.white, for: .normal)
-//
-//        self.view.addSubview(textbutton)
-//        textbutton.addTarget(self, action: #selector(File.pushButton), for: .touchUpInside)
         
         upview = UIView(frame: CGRect(x: 0, y: 0, width: 850, height: 40))
         upview.backgroundColor = UIColor.darkGray
@@ -335,7 +323,7 @@ class ARCalendar:UIViewController{
         let mutableAttributedText_d2 = NSMutableAttributedString(string: "日", attributes: attributes_d2)
         mutableAttributedText_d1.append(mutableAttributedText_d2)
         daylabel.attributedText = mutableAttributedText_d1
-//
+        
 //        let attributes_y1: [NSAttributedString.Key : Any] = [.foregroundColor : UIColor.black]
 //        let attributedText_y1 =  NSAttributedString(string: yo[youbi-1], attributes: attributes_y1)
 //        let mutableAttributedText_y1 = NSMutableAttributedString(attributedString: attributedText_y1)

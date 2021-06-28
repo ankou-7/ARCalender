@@ -15,6 +15,7 @@
 		26713597247070BA003E6E54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26713595247070BA003E6E54 /* Main.storyboard */; };
 		26713599247070BC003E6E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26713598247070BC003E6E54 /* Assets.xcassets */; };
 		2671359C247070BC003E6E54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2671359A247070BC003E6E54 /* LaunchScreen.storyboard */; };
+		26A2B63624897C4100D11B04 /* MultipeerSession1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2B63524897C4100D11B04 /* MultipeerSession1.swift */; };
 		26A8296B24745A6D0094139B /* syokaki.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26A8296A24745A6C0094139B /* syokaki.ttf */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		26713598247070BC003E6E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2671359B247070BC003E6E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2671359D247070BC003E6E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A2B63524897C4100D11B04 /* MultipeerSession1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerSession1.swift; sourceTree = "<group>"; };
 		26A8296A24745A6C0094139B /* syokaki.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = syokaki.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,19 +45,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00B4BB89DD9CF78D410E9B58 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		26713583247070BA003E6E54 = {
 			isa = PBXGroup;
 			children = (
 				2671358E247070BA003E6E54 /* ARCalendar */,
 				2671358D247070BA003E6E54 /* Products */,
-				00B4BB89DD9CF78D410E9B58 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +67,7 @@
 				2671358F247070BA003E6E54 /* AppDelegate.swift */,
 				26713591247070BA003E6E54 /* art.scnassets */,
 				26713593247070BA003E6E54 /* ViewController.swift */,
+				26A2B63524897C4100D11B04 /* MultipeerSession1.swift */,
 				260144A92479F3A900C3A105 /* ARCalendar.swift */,
 				260144AB2479F45300C3A105 /* writememo.swift */,
 				26A8296A24745A6C0094139B /* syokaki.ttf */,
@@ -160,6 +155,7 @@
 				26713594247070BA003E6E54 /* ViewController.swift in Sources */,
 				26713590247070BA003E6E54 /* AppDelegate.swift in Sources */,
 				260144AA2479F3A900C3A105 /* ARCalendar.swift in Sources */,
+				26A2B63624897C4100D11B04 /* MultipeerSession1.swift in Sources */,
 				260144AC2479F45300C3A105 /* writememo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,7 +308,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.toralab.ankou.ARCalendar.ARCalendar;
+				PRODUCT_BUNDLE_IDENTIFIER = org.toralab.ankou.ARCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,7 +327,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.toralab.ankou.ARCalendar.ARCalendar;
+				PRODUCT_BUNDLE_IDENTIFIER = org.toralab.ankou.ARCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
